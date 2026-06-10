@@ -57,10 +57,9 @@ We will use the `touch` command to create a Terraform authentication file.
 3. In GitBash type the command `touch 01-auth.tf`
 4. Run `ls` to verify the file **01-auth.tf** is present.
 5. Verify the file exist then run the command `code .` which will open VSCode on the present directory your currently in.
-6. You VSCode with a similar setup in the image below. 
-![](Pasted-image-20260609214851.png)
+6. You VSCode with a similar setup in the image below.![](Pasted-image-20260609214851.png)
 7. Ensure you see both **.gitignore** and **01-auth.tf** files in explorer panel to the left
-### GUIDE 5: auth.tf
+### GUIDE 6: Create Terraform file
 Now, we will copy the authentication code into **01-auth.tf**
 1. In the explorer panel click the file **01-auth.tf** to open it in a tab
 2. Navigate in your web browser to TheoWAF's GitHub repository. https://github.com/malgus-waf/class5/tree/main
@@ -71,7 +70,7 @@ Now, we will copy the authentication code into **01-auth.tf**
 7. On line 1 paste the code from your clipboard ![](Pasted-image-20260609215319.png)
 8. Save the file
 
-### Open a GitBash instance directly in VSCode
+### GUIDE 7:Open a GitBash instance directly in VSCode
 1. In VSCode menu, click Terminal -> New Terminal, or use the keyboard shortcut CTRL+SHIFT+\`
 	- Optionally, you can click the "Toggle Panel" button in the top right VSCode window or use keyboard shortcut CTRL+J. ![](Pasted-image-20260609220116.png)
 2. You should see the panel at the bottom of VSCode. ![](Pasted-image-20260609215720.png)
