@@ -28,7 +28,7 @@ curl https://raw.githubusercontent.com/aaron-dm-mcdonald/Class7-notes/refs/heads
 	- Terraform installation
 	- Class 7.0 structured assets folder
 	- ".gitignore" file download in the "Terraform" folder
-3. You should get a successful report as shown below. If not, you will need to resolve the issue(s) given. ![[Pasted image 20260607215818.png]]
+3. You should get a successful report as shown below. If not, you will need to resolve the issue(s) given. ![](Pasted image 20260607215818.png)
 	- For both AWS CLI and Terraform failure refer to Class 7.0 Installation guild.
 The `curl` should have created a folder named "TheoWAF" within your Home folder (represented by the '~\' character; lets verify)
 4. Navigate to your Home folder by executing the command `cd ~` 
@@ -57,7 +57,8 @@ We will use the `touch` command to create a Terraform authentication file.
 3. In GitBash type the command `touch 01-auth.tf`
 4. Run `ls` to verify the file **01-auth.tf** is present.
 5. Verify the file exist then run the command `code .` which will open VSCode on the present directory your currently in.
-6. You VSCode with a similar setup in the image below. ![[Pasted image 20260609214851.png]]
+6. You VSCode with a similar setup in the image below. 
+![](Pasted-image-20260609214851.png)
 7. Ensure you see both **.gitignore** and **01-auth.tf** files in explorer panel to the left
 ### GUIDE 5: auth.tf
 Now, we will copy the authentication code into **01-auth.tf**
@@ -65,7 +66,7 @@ Now, we will copy the authentication code into **01-auth.tf**
 2. Navigate in your web browser to TheoWAF's GitHub repository. https://github.com/malgus-waf/class5/tree/main
 3. If you have a GitHub account, click the "Fork" button to this repo to you account.
 4. In the files listings, click the file link name **0-Auth.tf**
-5. Click the button shown below to copy the code to you clipboard. WARNING: Do not highlight the text to copy ![[Pasted image 20260609213407.png]]
+5. Click the button shown below to copy the code to you clipboard. WARNING: Do not highlight the text to copy ![](Pasted image 20260609213407.png)
 6. Head back over to VSCode
 7. On line 1 paste the code from your clipboard ![[Pasted image 20260609215319.png]]
 8. Save the file
