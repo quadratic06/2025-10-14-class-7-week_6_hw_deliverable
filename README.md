@@ -33,7 +33,7 @@ curl https://raw.githubusercontent.com/aaron-dm-mcdonald/Class7-notes/refs/heads
 
 ![](Pasted-image-20260607215818.png)
 
-The `curl` should have created a folder named "TheoWAF" within your Home folder (represented by the '~\' character; lets verify)
+The `curl` should have created a folder named "TheoWAF" within your Home folder (represented by the tilde character; lets verify)
 4. Navigate to your Home folder by executing the command `cd ~` 
 5. Run `pwd` to ensure you're in your Home folder
 6. Execute the command `ls` to verify folder "TheoWAF" is present.
