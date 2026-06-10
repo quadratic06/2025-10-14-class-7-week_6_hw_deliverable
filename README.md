@@ -29,10 +29,10 @@ curl https://raw.githubusercontent.com/aaron-dm-mcdonald/Class7-notes/refs/heads
 	- Class 7.0 structured assets folder
 	- ".gitignore" file download in the "Terraform" folder
 3. You should get a successful report as shown below. If not, you will need to resolve the issue(s) given. 
+    - For both AWS CLI and Terraform failure refer to Class 7.0 Installation guild.
 
 ![](Pasted-image-20260607215818.png)
 
-	- For both AWS CLI and Terraform failure refer to Class 7.0 Installation guild.
 The `curl` should have created a folder named "TheoWAF" within your Home folder (represented by the '~\' character; lets verify)
 4. Navigate to your Home folder by executing the command `cd ~` 
 5. Run `pwd` to ensure you're in your Home folder
