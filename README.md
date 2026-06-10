@@ -28,7 +28,7 @@ curl https://raw.githubusercontent.com/aaron-dm-mcdonald/Class7-notes/refs/heads
 	- Terraform installation
 	- Class 7.0 structured assets folder
 	- ".gitignore" file download in the "Terraform" folder
-3. You should get a successful report as shown below. If not, you will need to resolve the issue(s) given. ![](Pasted image 20260607215818.png)
+3. You should get a successful report as shown below. If not, you will need to resolve the issue(s) given. ![](Pasted-image-20260607215818.png)
 	- For both AWS CLI and Terraform failure refer to Class 7.0 Installation guild.
 The `curl` should have created a folder named "TheoWAF" within your Home folder (represented by the '~\' character; lets verify)
 4. Navigate to your Home folder by executing the command `cd ~` 
@@ -58,7 +58,7 @@ We will use the `touch` command to create a Terraform authentication file.
 4. Run `ls` to verify the file **01-auth.tf** is present.
 5. Verify the file exist then run the command `code .` which will open VSCode on the present directory your currently in.
 6. You VSCode with a similar setup in the image below. 
-![](Pasted image 20260609214851.png)
+![](Pasted-image-20260609214851.png)
 7. Ensure you see both **.gitignore** and **01-auth.tf** files in explorer panel to the left
 ### GUIDE 5: auth.tf
 Now, we will copy the authentication code into **01-auth.tf**
@@ -66,29 +66,29 @@ Now, we will copy the authentication code into **01-auth.tf**
 2. Navigate in your web browser to TheoWAF's GitHub repository. https://github.com/malgus-waf/class5/tree/main
 3. If you have a GitHub account, click the "Fork" button to this repo to you account.
 4. In the files listings, click the file link name **0-Auth.tf**
-5. Click the button shown below to copy the code to you clipboard. WARNING: Do not highlight the text to copy ![](Pasted image 20260609213407.png)
+5. Click the button shown below to copy the code to you clipboard. WARNING: Do not highlight the text to copy ![](Pasted-image-20260609213407.png)
 6. Head back over to VSCode
-7. On line 1 paste the code from your clipboard ![[Pasted image 20260609215319.png]]
+7. On line 1 paste the code from your clipboard ![](Pasted-image-20260609215319.png)
 8. Save the file
 
 ### Open a GitBash instance directly in VSCode
 1. In VSCode menu, click Terminal -> New Terminal, or use the keyboard shortcut CTRL+SHIFT+\`
-	- Optionally, you can click the "Toggle Panel" button in the top right VSCode window or use keyboard shortcut CTRL+J. ![[Pasted image 20260609220116.png]]
-2. You should see the panel at the bottom of VSCode. ![[Pasted image 20260609215720.png]]
-3. If another Terminal open beside GitBash, you set GitBash as the default. Click the down arrow next to the '+' button, click "Select Default Profile" in the menu that pops up ![[Pasted image 20260609220716.png]]
-4. Next click GitBash ![[Pasted image 20260609220804.png]]
+	- Optionally, you can click the "Toggle Panel" button in the top right VSCode window or use keyboard shortcut CTRL+J. ![](Pasted-image-20260609220116.png)
+2. You should see the panel at the bottom of VSCode. ![](Pasted-image-20260609215720.png)
+3. If another Terminal open beside GitBash, you set GitBash as the default. Click the down arrow next to the '+' button, click "Select Default Profile" in the menu that pops up ![](Pasted-image-20260609220716.png)
+4. Next click GitBash ![](Pasted-image-20260609220804.png)
 5. Now anytime you open a Terminal GitBash will open by default
 6. In the new GitBash terminal window below run command `pwd` to verify you are in the project folder.
-7. Type and run the Terraform command `terraform init` to initialize Terraform in your project directory. ![[Pasted image 20260609221355.png]]
+7. Type and run the Terraform command `terraform init` to initialize Terraform in your project directory. ![](Pasted-image-20260609221355.png)
 8. If successfully initialized, there will be a **.terraform** folder and a **.terraform.lock.hcl** file the explorer panel.
 > [!warning]
 > DO NOT ATTEMPT TO OPEN AND/OR MODIFY THE **.terraform** FOLDER AND THE **.terraform.lock.hcl** FILE
 
-9. Run the Terraform command `terraform validate` to check syntax of the **01-auth.tf** file ![[Pasted image 20260609222533.png]]
-10. If successful, now run the next command `terraform plan` to create a report of the actions Terraform will perform in AWS. You should get the following status report. ![[Pasted image 20260609222822.png]]
+9. Run the Terraform command `terraform validate` to check syntax of the **01-auth.tf** file ![](Pasted-image-20260609222533.png)
+10. If successful, now run the next command `terraform plan` to create a report of the actions Terraform will perform in AWS. You should get the following status report. ![](Pasted-image-20260609222822.png)
 11. Now, run the command `terraform apply` 
 12. The console should show the follow:
-    "Apply complete! Resources: 0 added, 0 changed, 0 destroyed." ![[Pasted image 20260609222918.png]]
+    "Apply complete! Resources: 0 added, 0 changed, 0 destroyed." ![](Pasted-image-20260609222918.png)
 13. Congratulations! You have successfully initialized a Terraform in a folder the will work with the AWS platform
 
 > [!warning]
