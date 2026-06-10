@@ -86,7 +86,7 @@ Now, we will copy the authentication code into **01-auth.tf**
 1. In VSCode menu, click Terminal -> New Terminal, or use the keyboard shortcut CTRL+SHIFT+\`
 	- Optionally, you can click the "Toggle Panel" button in the top right VSCode window or use keyboard shortcut CTRL+J. 
     
-    ![](Pasted-image-20260609220116.png)
+![](Pasted-image-20260609220116.png)
     
 2. You should see the panel at the bottom of VSCode. 
 
@@ -122,7 +122,7 @@ Now, we will copy the authentication code into **01-auth.tf**
 12. The console should show the follow:
     "Apply complete! Resources: 0 added, 0 changed, 0 destroyed." 
     
-    ![](Pasted-image-20260609222918.png)
+![](Pasted-image-20260609222918.png)
     
 13. Congratulations! You have successfully initialized a Terraform in a folder the will work with the AWS platform
 
