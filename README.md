@@ -58,7 +58,7 @@ We will use the `touch` command to create a Terraform authentication file.
 4. Run `ls` to verify the file **01-auth.tf** is present.
 5. Verify the file exist then run the command `code .` which will open VSCode on the present directory your currently in.
 6. You VSCode with a similar setup in the image below. 
-![](Pasted-image-20260609214851.png)
+![](Pasted image 20260609214851.png)
 7. Ensure you see both **.gitignore** and **01-auth.tf** files in explorer panel to the left
 ### GUIDE 5: auth.tf
 Now, we will copy the authentication code into **01-auth.tf**
